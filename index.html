@@ -76,18 +76,38 @@ table tbody tr:nth-child(even) {
     border-top: 1px solid #ddd;
     padding-top: 20px;
 }
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.logo {
+  max-width: 180px;
+}
+
+.header-text h1 {
+  margin: 0;
+}
+
+.header-text h2 {
+  margin: 5px 0 0;
+}
+	
 </style>
 </head>
 <body>
 <div class="container">
 
-   <div class="header" style="text-align:center; margin-bottom:30px;">
-    <img src="01-MSYSImob_Cortado.png" alt="Msys Imob" style="max-width:220px;">
-  </div>
+<div class="header-flex">
+  <img src="logo-msys-imob.jpg" alt="Msys Imob" class="logo">
 
-
+  <div class="header-text">
     <h1>Planos 2026 – Msys Imob</h1>
     <h2>Plano Essencial – Para Iniciantes de Sucesso</h2>
+  </div>
+</div>
 
     <p class="lead">
         O Plano Essencial do Msys Imob foi desenvolvido para imobiliárias que desejam iniciar ou
